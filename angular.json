@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Game-of-life-angular"
+    }
+  },
+  "defaultProject": "Game-of-life-angular",
+  "cli": {
+    "analytics": false
+  }
 }
