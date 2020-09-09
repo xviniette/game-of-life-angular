@@ -71,7 +71,7 @@ describe('AppComponent', () => {
     it('Should live cell lives with 2 or 3 live neighbours', () => {
       const fixture = TestBed.createComponent(AppComponent);
       const app = fixture.componentInstance;
-      expect(app.getNextCellState(1, 2) == 1 && app.getNextCellState(1, 2) == 1).toBeTruthy();
+      expect(app.getNextCellState(1, 2) == 1 && app.getNextCellState(1, 3) == 1).toBeTruthy();
     });
 
     it('Should dead cell lives 3 live neighbours', () => {
